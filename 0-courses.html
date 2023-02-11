@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <link rel="icon" type="image/png" href="./images/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Coiny&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./holberton_school-icon/style.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>SmileSchool</title>
+  </head>
+  <body
+    style="
+      background-image: url('./images/pic_3.jpg');
+      background-repeat: no-repeat;
+      background-color: #071629;
+    "
+  >
+    <div class="task_c0">
+      <nav class="nav_bar">
+        <!-- LOGO -->
+        <img class="lo_go_1" src="./images/smile_off.png" alt="smile" />
+        <img class="lo_go_2" src="./images/logo.png" alt="smile school" />
+        <!--  NAVIGATION MENU -->
+        <ul class="nav-li_nks">
+          <!-- USING CHECKBOX HACK -->
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+          <!-- NAVIGATION MENUS -->
+          <div class="me_nu">
+            <li><a href="/">COURCES</a></li>
+            <li><a href="/">PRICING</a></li>
+            <li><a href="/">LOGIN</a></li>
+          </div>
+        </ul>
+      </nav>
+      <div class="row justify-content-center disnn" style="text-align: center">
+        <div class="col-6" style="margin-bottom: 5%; margin-top: 5%">
+          <h1 style="font-weight: bold">« Don’t cry because it’s over.</h1>
+          <h1><strong>Smile</strong> because it happened. »</h1>
+        </div>
+      </div>
+    </div>
+    <!--carousel task_2-->
+    <div class="task_2">
+      <div><br /><br /></div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="" style="margin-bottom: 2%; margin-left: 2%">
+            <p>KEYWORDS</p>
+            <i
+              class="holberton_school-icon-search_2"
+              style="margin-right: -7%"
+            ></i>
+            <input
+              type="text"
+              style="opacity: 50.19%; color: white; width: 350px; height: 51px"
+              placeholder="      Search by keywords"
+            />
+          </div>
+          <div class="" style="margin-bottom: 2%; margin-right: 2%">
+            <p>TOPIC</p>
+            <select
+              id="topic"
+              name="topic"
+              style="opacity: 50.19%; width: 350px; height: 51px"
+            >
+              <option value="Novice">Novice</option>
+              <option value="Intermediate">Intermediate</option>
+              <option value="Expert">Expert</option>
+            </select>
+          </div>
+          <div class="" style="margin-bottom: 2%">
+            <p>SORT BY</p>
+            <select
+              id="SORTBY"
+              name="SORT-BY"
+              style="opacity: 50.19%; width: 350px; height: 51px"
+            >
+              <option value="Novice">Most Popular</option>
+              <option value="Intermediate">Most Recent</option>
+              <option value="Expert">Most Viewed</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="background-color: white; color: black; padding-left: 5%">
+      <p
+        style="
+          color: #0716294c;
+          margin-left: 5%;
+          padding-top: 3%;
+          padding-bottom: 3%;
+        "
+      >
+        11 videos
+      </p>
+      <div class="row align-items-center">
+        <div class="col-sm-12 col-lg-3 col-md-6">
+          <!---------------------------CARD-------------------------->
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="./images/thumbnail_1.jpg"
+              alt="Card image cap"
+            />
+            <img class="play-img" src="./images/play.png" />
+            <div class="card-body">
+              <h5 class="card-title">Sad Smile</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
+                eiusmod.
+              </p>
+              <img
+                class="per_son crd_img crd_rt"
+                src="./images/profile_5.jpg"
+                alt="Second slide"
+              />
+              Phillip Massey
+              <br />
+              <div>
+                <img src="images/star_on.png" width="15" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_off.png" width="15px" height="15px" />
+                <span>&emsp;&emsp;&emsp;&emsp;8min</span>
+              </div>
+            </div>
+            <!---------------------------CARD-------------------------->
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-3 col-md-6">
+          <!---------------------------CARD-------------------------->
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="./images/thumbnail_1.jpg"
+              alt="Card image cap"
+            />
+            <img class="play-img" src="./images/play.png" />
+            <div class="card-body">
+              <h5 class="card-title">Sad Smile</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
+                eiusmod.
+              </p>
+              <img
+                class="per_son crd_img crd_rt"
+                src="./images/profile_5.jpg"
+                alt="Second slide"
+              />
+              Phillip Massey
+              <br />
+              <div>
+                <img src="images/star_on.png" width="15" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_off.png" width="15px" height="15px" />
+                <span>&emsp;&emsp;&emsp;&emsp;8min</span>
+              </div>
+            </div>
+            <!---------------------------CARD-------------------------->
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-3 col-md-6">
+          <!---------------------------CARD-------------------------->
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="./images/thumbnail_1.jpg"
+              alt="Card image cap"
+            />
+            <img class="play-img" src="./images/play.png" />
+            <div class="card-body">
+              <h5 class="card-title">Sad Smile</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
+                eiusmod.
+              </p>
+              <img
+                class="per_son crd_img crd_rt"
+                src="./images/profile_5.jpg"
+                alt="Second slide"
+              />
+              Phillip Massey
+              <br />
+              <div>
+                <img src="images/star_on.png" width="15" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_off.png" width="15px" height="15px" />
+                <span>&emsp;&emsp;&emsp;&emsp;8min</span>
+              </div>
+            </div>
+            <!---------------------------CARD-------------------------->
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-3 col-md-6">
+          <!---------------------------CARD-------------------------->
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="./images/thumbnail_1.jpg"
+              alt="Card image cap"
+            />
+            <img class="play-img" src="./images/play.png" />
+            <div class="card-body">
+              <h5 class="card-title">Sad Smile</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
+                eiusmod.
+              </p>
+              <img
+                class="per_son crd_img crd_rt"
+                src="./images/profile_5.jpg"
+                alt="Second slide"
+              />
+              Phillip Massey
+              <br />
+              <div>
+                <img src="images/star_on.png" width="15" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_off.png" width="15px" height="15px" />
+                <span>&emsp;&emsp;&emsp;&emsp;8min</span>
+              </div>
+            </div>
+            <!---------------------------CARD-------------------------->
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-sm-12 col-lg-3 col-md-6">
+          <!---------------------------CARD-------------------------->
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="./images/thumbnail_1.jpg"
+              alt="Card image cap"
+            />
+            <img class="play-img" src="./images/play.png" />
+            <div class="card-body">
+              <h5 class="card-title">Sad Smile</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
+                eiusmod.
+              </p>
+              <img
+                class="per_son crd_img crd_rt"
+                src="./images/profile_5.jpg"
+                alt="Second slide"
+              />
+              Phillip Massey
+              <br />
+              <div>
+                <img src="images/star_on.png" width="15" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_off.png" width="15px" height="15px" />
+                <span>&emsp;&emsp;&emsp;&emsp;8min</span>
+              </div>
+            </div>
+            <!---------------------------CARD-------------------------->
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-3 col-md-6">
+          <!---------------------------CARD-------------------------->
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="./images/thumbnail_1.jpg"
+              alt="Card image cap"
+            />
+            <img class="play-img" src="./images/play.png" />
+            <div class="card-body">
+              <h5 class="card-title">Sad Smile</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
+                eiusmod.
+              </p>
+              <img
+                class="per_son crd_img crd_rt"
+                src="./images/profile_5.jpg"
+                alt="Second slide"
+              />
+              Phillip Massey
+              <br />
+              <div>
+                <img src="images/star_on.png" width="15" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_off.png" width="15px" height="15px" />
+                <span>&emsp;&emsp;&emsp;&emsp;8min</span>
+              </div>
+            </div>
+            <!---------------------------CARD-------------------------->
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-3 col-md-6">
+          <!---------------------------CARD-------------------------->
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="./images/thumbnail_1.jpg"
+              alt="Card image cap"
+            />
+            <img class="play-img" src="./images/play.png" />
+            <div class="card-body">
+              <h5 class="card-title">Sad Smile</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
+                eiusmod.
+              </p>
+              <img
+                class="per_son crd_img crd_rt"
+                src="./images/profile_5.jpg"
+                alt="Second slide"
+              />
+              Phillip Massey
+              <br />
+              <div>
+                <img src="images/star_on.png" width="15" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_off.png" width="15px" height="15px" />
+                <span>&emsp;&emsp;&emsp;&emsp;8min</span>
+              </div>
+            </div>
+            <!---------------------------CARD-------------------------->
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-3 col-md-6">
+          <!---------------------------CARD-------------------------->
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="./images/thumbnail_1.jpg"
+              alt="Card image cap"
+            />
+            <img class="play-img" src="./images/play.png" />
+            <div class="card-body">
+              <h5 class="card-title">Sad Smile</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
+                eiusmod.
+              </p>
+              <img
+                class="per_son crd_img crd_rt"
+                src="./images/profile_5.jpg"
+                alt="Second slide"
+              />
+              Phillip Massey
+              <br />
+              <div>
+                <img src="images/star_on.png" width="15" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_off.png" width="15px" height="15px" />
+                <span>&emsp;&emsp;&emsp;&emsp;8min</span>
+              </div>
+            </div>
+            <!---------------------------CARD-------------------------->
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-sm-12 col-lg-3 col-md-6">
+          <!---------------------------CARD-------------------------->
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="./images/thumbnail_1.jpg"
+              alt="Card image cap"
+            />
+            <img class="play-img" src="./images/play.png" />
+            <div class="card-body">
+              <h5 class="card-title">Sad Smile</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
+                eiusmod.
+              </p>
+              <img
+                class="per_son crd_img crd_rt"
+                src="./images/profile_5.jpg"
+                alt="Second slide"
+              />
+              Phillip Massey
+              <br />
+              <div>
+                <img src="images/star_on.png" width="15" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_off.png" width="15px" height="15px" />
+                <span>&emsp;&emsp;&emsp;&emsp;8min</span>
+              </div>
+            </div>
+            <!---------------------------CARD-------------------------->
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-3 col-md-6">
+          <!---------------------------CARD-------------------------->
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="./images/thumbnail_1.jpg"
+              alt="Card image cap"
+            />
+            <img class="play-img" src="./images/play.png" />
+            <div class="card-body">
+              <h5 class="card-title">Sad Smile</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
+                eiusmod.
+              </p>
+              <img
+                class="per_son crd_img crd_rt"
+                src="./images/profile_5.jpg"
+                alt="Second slide"
+              />
+              Phillip Massey
+              <br />
+              <div>
+                <img src="images/star_on.png" width="15" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_off.png" width="15px" height="15px" />
+                <span>&emsp;&emsp;&emsp;&emsp;8min</span>
+              </div>
+            </div>
+            <!---------------------------CARD-------------------------->
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-3 col-md-6">
+          <!---------------------------CARD-------------------------->
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="./images/thumbnail_1.jpg"
+              alt="Card image cap"
+            />
+            <img class="play-img" src="./images/play.png" />
+            <div class="card-body">
+              <h5 class="card-title">Sad Smile</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
+                eiusmod.
+              </p>
+              <img
+                class="per_son crd_img crd_rt"
+                src="./images/profile_5.jpg"
+                alt="Second slide"
+              />
+              Phillip Massey
+              <br />
+              <div>
+                <img src="images/star_on.png" width="15" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_on.png" width="15px" height="15px" />
+                <img src="images/star_off.png" width="15px" height="15px" />
+                <span>&emsp;&emsp;&emsp;&emsp;8min</span>
+              </div>
+            </div>
+            <!---------------------------CARD-------------------------->
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <!-- LOGO -->
+
+      <span class="logo_f">
+        <img class="lo_go_1 foo_lg" src="./images/smile_off.png" alt="smile" />
+        <img
+          class="lo_go_2-2 foo_lg"
+          src="./images/logo.png"
+          alt="smile school"
+        />
+      </span>
+      <div class="ic_ons">
+        <span class="icons-contact holberton_school-icon-ic_facebook"></span>
+        <span class="icons-contact holberton_school-icon-ic_twitter"></span>
+        <span class="icons-contact holberton_school-icon-ic_instagram"></span>
+      </div>
+      <p class="copyright">©headphones 2020</p>
+    </footer>
+  </body>
+</html>

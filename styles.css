@@ -1,0 +1,380 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #fff;
+}
+
+/* Ain't sure why*/
+.row {
+  margin-right: 0px !important;
+}
+a {
+  text-decoration: none !important;
+}
+li {
+  list-style: none;
+}
+.task_1 {
+  background-image: url("./images/pic_1.jpg");
+  background-size: 100%;
+  margin-bottom: 3.5%;
+  background-color: #071629;
+  background-repeat: no-repeat;
+}
+
+/* NAVBAR STYLING STARTS */
+.nav_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.nav-li_nks a {
+  color: #fff;
+}
+.ti_tle {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1%;
+}
+.ti_tle_2 {
+  font-size: 2rem;
+}
+/* LOGO */
+.lo_go_1 {
+  width: 35px;
+}
+.lo_go_2 {
+  margin-left: -60%;
+  width: 150px;
+}
+.lo_go_2-2 {
+  width: 150px;
+}
+/* NAVBAR MENU */
+.me_nu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+.nav-li_nks :hover {
+  color: #c271ff;
+}
+.me_nu li {
+  padding: 5px 14px;
+}
+.cen_ter {
+  margin-top: 17%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: -1%;
+
+  text-align: center;
+}
+button {
+  background-color: #c271ff;
+  border: none;
+  border-radius: 22px;
+  color: white;
+  height: 44px;
+  width: 162px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font: bold;
+
+}
+button:hover:active {
+opacity: 0.9;
+
+}
+
+strong {
+  color: #c271ff;
+}
+.peo_ple {
+  margin-top: 5%;
+  text-align: center;
+  margin-bottom: -5%;
+}
+.per_son {
+  border-radius: 50%;
+  width: 210px;
+}
+.chi_ld {
+  display: inline-block;
+  text-align: center;
+  margin-left: 40px;
+}
+/*RESPONSùIVE NAVBAR MENU STARTS*/
+/* CHECKBOX HACK */
+input[type="checkbox"] {
+  display: none;
+}
+/*HAMBURGER MENU*/
+.hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+}
+
+/*Pricing000000000000*/
+.task_p0 {
+  background-image: url("./images/pic_2.jpg");
+  /* for the first task
+    margin-bottom: 5%;*/
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #071629;
+  width: 100%;
+}
+.holberton_school-icon-check {
+  color: rgb(80, 206, 80);
+  font-size: 28px;
+}
+
+/*Pricing done!!!!!!!!!!!!!!!!!!*/
+/*--------Courses-----------*/
+/*----------courses-0--------*/
+
+/*new sections   --------- task_2------*/
+.task_2 {
+  background-color: #c271ff;
+
+  padding-bottom: 5%;
+}
+.img_crsl {
+  margin-left: 40%;
+}
+.crsl_i_1 {
+  width: 40%;
+  float: left;
+}
+.crsl_i_2 {
+  width: 80%;
+}
+/*--------task_3-----------*/
+.task_3 {
+  color: black;
+}
+.crsl_vid {
+  max-width: 250px;
+  height: 180px;
+}
+
+/*  -----------________     task_3 ___________-------       */
+.card-text {
+  color: #07162980;
+}
+.crd_img {
+  width: 30px;
+}
+
+.play-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding-right: 3.6rem;
+  padding-bottom: 14.6rem;
+}
+/*
+.crd_star {
+color: #C271FF;
+font-size: 1.4rem;
+}*/
+.checked {
+  color: #c271ff;
+}
+
+.card-title {
+  color: black;
+  margin-top: 2%;
+}
+.card-body {
+  color: #c271ff;
+}
+/*----carousel of cards------*/
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+/*---------carousel of cards----*/
+.task_3 h4 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: normal;
+  margin-bottom: 4rem;
+}
+.task_3 h4 span {
+  color: #c271ff;
+}
+/*.card {
+  width: 15rem;
+  margin: 1rem;
+}*/
+.tuto-container {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 68rem;
+  margin-inline: auto;
+  justify-content: space-evenly;
+}
+.task_3 .carousel-item {
+  margin-right: 0;
+}
+.task_3 .carousel-control-next-icon {
+  background-image: url(./images/arrow_black_right.png);
+  height: 4rem;
+}
+.task_3 .carousel-control-prev-icon {
+  background-image: url(./images/arrow_black_left.png);
+  height: 4rem;
+}
+/*---------------task_4------------*/
+.task_4 {
+  background-color: #071629;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.cen_ter-2 {
+  text-align: center;
+}
+.mr {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+footer {
+  background-color: #071629;
+  padding-bottom: 2%;
+}
+.copyright {
+  color: #fff;
+  opacity: 0.35;
+  margin-left: 42%;
+  margin-right: 38%;
+}
+.ic_ons {
+  margin-left: 80%;
+  margin-top: -3%;
+}
+.icons-contact {
+  font-size: 30px;
+  color: #fff;
+}
+.logo_f {
+  margin-left: 5%;
+}
+.foo_lg {
+  margin-top: 5%;
+}
+/*.card {
+  margin-left: 50%;
+  margin-right: 20%;
+}*/
+.card {
+  margin-left: 1.35%;
+  margin-bottom: 5%;
+  width: 255px !important;
+}
+
+/*@media (max-width: 992px) {
+
+}*/
+/* APPLYING MEDIA QUERIES */
+@media only screen and (max-width: 576px) {
+  /* Your mobile version styles here */
+  .me_nu {
+    display: none;
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+  }
+}
+/* Button hover/active styles */
+button:hover,
+button:active {
+  opacity: 0.9;
+}
+@media (max-width: 768px) {
+  .me_nu {
+    display: none;
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+  }
+  .me_nu li:hover {
+    display: inline-block;
+    transition: 0.3s ease;
+  }
+  .me_nu li + li {
+    margin-top: 12px;
+  }
+  input[type="checkbox"]:checked ~ .me_nu {
+    display: block;
+  }
+  .hamburger {
+    display: block;
+    position: fixed;
+    left: 50px;
+    top: 20px;
+    color: white;
+  }
+  .lo_go_1 {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  .ti_tle {
+    font-size: 2.5rem;
+  }
+  .per_son {
+    width: 120px;
+  }
+ 
+  .crsl_i_1 {
+    float: none;
+    margin-left: 40px;
+  }
+  .crsl {
+    margin-left: 50px;
+    text-align: center;
+  }
+  /*.card {
+  display: none;
+}*/
+
+  .ic_ons {
+    margin-left: 40%;
+    margin-top: 5%;
+  }
+  .lo_go_2-2 {
+    margin-top: -10%;
+    margin-left: 42%;
+  }
+
+  .copyright {
+    margin-top: 5%;
+    margin-left: 36%;
+  }
+  .med-cen {
+    margin-right: 5%;
+  }
+
+  /*0-courses title*/
+  .disnn {
+    display: none;
+  }
+  .crd_img {
+    width: 30px;
+  }
+  .card {
+    margin-left: 15%;
+    margin-bottom: 5%;
+  }
+}
