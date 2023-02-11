@@ -146,15 +146,19 @@ input[type="checkbox"] {
 
   padding-bottom: 5%;
 }
-.img_crsl {
-  margin-left: 40%;
+.loader {
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid #C271FF;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 2s linear infinite;
+  margin: auto;
 }
-.crsl_i_1 {
-  width: 40%;
-  float: left;
-}
-.crsl_i_2 {
-  width: 80%;
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 /*--------task_3-----------*/
 .task_3 {
